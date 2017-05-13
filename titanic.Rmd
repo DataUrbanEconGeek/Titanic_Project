@@ -2,7 +2,7 @@
 title: "Predicting Survival on the Titanic"
 author: "Andrew Rosa"
 date: "12/10/2016"
-output: pdf_document
+output: html_document
 ---
 
 ### Background
@@ -179,6 +179,9 @@ write.csv(solution_2, file = "solution_2.csv", row.names = FALSE)
 
 Unfortanitly this solution did not improve the model providing again an accuracy of 77.5%. This is just the start to creating a simple recursive partision model though. The next steps would be to further re-engineer the data by analizing the name variable for titles like Dr, or Mrs, and turning that data into a seperate variable of it's oown. Adjusting the fit of the model by setting the number of splits and size of leafs could possibly help as well. Further cross validation would be needed to figure which model would produce the most accurate results. 
 
+#### Project Source Code
+
+https://github.com/PunkFood-Disme/Titanic_Project
 
 
 
