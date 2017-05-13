@@ -2,7 +2,7 @@
 title: "Predicting Survival on the Titanic"
 author: "Andrew Rosa"
 date: "12/10/2016"
-output: html_document
+output: pdf_document
 ---
 
 ### Background
